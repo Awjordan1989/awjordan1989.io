@@ -6,8 +6,10 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  
+  text-align: center;
 }
+header {text-align: center;}
+
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {font-family: Playfair Display; text-align: center;}
 h2 {text-align: center;}
@@ -18,17 +20,15 @@ h3 { text-align: center;
   padding: 50px 0;
 }
 
-article div {
-  text-align: center;
-  width: 100%;
-}
-
+.
 p {
+  text-align: center;
   line-height: 1.5;
 }
 
 /* The div container constrains the content width within the main container to 600px */
 div {
+  text-align: center;
   margin: auto;
   width: 600px;
 }
@@ -40,7 +40,22 @@ img {
   max-width: 200px;
   height: auto;
 }
+div.interests {
+  text-align: center;
+}
 
+ul.arts {
+  display: inline-block;
+  text-align: left;
+}
+div.contactlist {
+  text-align: left;
+}
+
+ol.socials {
+  display: inline-block;
+  text-align: left;
+}
 hr {
   border: 1px solid black;
 }
